@@ -1,2 +1,2 @@
-# EduStakePool.github.io-
+# EduStakePool.github.io
 EDU stake pool website
