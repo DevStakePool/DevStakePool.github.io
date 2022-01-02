@@ -109,20 +109,20 @@ a:hover {
 	margin: 4px;
 }
 h2 {
-	font-size: 40px;
+	font-size: 30pt;
 	margin: 0;
-	padding-bottom: 16px;
 	font-variant: small-caps;
 }
+
 /* Header 
 ----------------------------------------------*/
 .header {
 	position: fixed;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
 	z-index: 50;
 	border-radius: 0;
 	top: 0px;
+	background: rgba(0, 0, 0, 0.5);
 }
 .navbar-inverse .navbar-toggle {
 	border-color: #5887FF;
@@ -291,11 +291,10 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	/*background: url("../images/banner-bg.jpg") no-repeat;*/
 	background-size: 100% 100%;
 	background-size: cover;
-	position: relative;
 }
 .banner-container > img {
 	width: 100%;
-	
+	min-height: fit-content;
 }
 .banner-content {
 	position: absolute;
@@ -304,14 +303,14 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	left: 0px;
 	right: 0px;
 	margin-left: 10px;
-	text-shadow: 2px 2px 4px #000000;
+    text-shadow: 3px 3px 5px #000000;
 }
 .banner-content h2 {
 	color: #fff;
-	font-size: 36pt;
+	font-size: 3.5vw;
 }
 .banner-content p {
-	font-size: 1.6em;
+	font-size: 3.2vw;
 	font-style: italic;
 	color: #fff;
 }
@@ -324,22 +323,24 @@ text-align:center;
 }
 .banner-content .social-icons{
  text-align:left;
- margin-top:20px;
 }
 .banner-content .social-icons a{
 text-align: center;
+/*
 border: 1px solid #fff;
 border-radius: 90px !important;
+*/
 height: 52px;
 line-height: 60px;
 padding: 0px;
-width: 52px;
+width: 3vw;
 display: inline-block;
 color:#fff;
 margin:0 6px;
 }
 .banner-content .social-icons a i{
-font-size:26px;
+font-size: 2.5vw;
+text-shadow: 3px 3px 5px #000000;
 }
 .banner-content .social-icons a:hover {
 background:#5887FF;
@@ -373,7 +374,7 @@ text-transform: uppercase;
 }
 .banner-content header p{
 text-align:left;
-font-size: 1.5em;
+font-size: 1.5vw;
 margin-bottom: 5px;
 letter-spacing: .1em;
 line-height: 1em;
@@ -386,6 +387,10 @@ float: none;
 .title {
 margin-left: 10px;
 align: left;
+}
+
+.title img {
+width: 3.5vw;
 }
 
 .heroText {
@@ -477,7 +482,7 @@ padding:60px 0;
 	}
 #aboutUs .txtHead {
 	background: #fff;
-	padding: 20px 10px;
+	padding: 10px;
 }
 #aboutUs .txtHead .fa {
 	font-size: 58px;
@@ -485,14 +490,14 @@ padding:60px 0;
 }
 .tileBox img{
 overflow:hidden;
-border-radius:120px;
-width:300px;
+border-radius:30px;
+width:240px;
 box-shadow: 12px 0px 0px 12px rgba(13, 113, 165, 0.2), -12px 0px 0px 12px rgba(109, 139, 232, 0.2);
 }
 .tileBox p { 
 	font-size: 15px;
 	color: #777777;
-	padding: 20px;
+	padding: 10px;
 	margin: 0px;
 }
 /*parlex*/
