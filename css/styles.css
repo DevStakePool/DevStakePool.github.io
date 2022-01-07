@@ -31,6 +31,9 @@ p {
 .white {
 	background: #fff;
 }
+.grey {
+    background: #F8F8F8;
+}
 .pDark p {
 	color: #6D6D6D;
 }
@@ -456,8 +459,9 @@ width: 8vw;
 	border: 2px solid rgba(255, 255, 255, 0.6);
 }
 .secPad {
-	padding: 60px 0;
+	padding: 30px 0;
 }
+
 /*Intro Content*/
 #introText {
 	padding: 6px 0;
@@ -474,11 +478,7 @@ width: 8vw;
 	color: #AEAEAE;
 	font-size: 16px;
 }
-#aboutUs{
-padding:60px 0;	
-	}
 #aboutUs .txtHead {
-	background: #fff;
 	padding: 10px;
 }
 #aboutUs .txtHead .fa {
@@ -582,13 +582,8 @@ min-height:200px;
 	font-size: 23px;
 }
 
-#projects {
-	background: #F8F8F8;
-}
+
 /*Stake Pool*/
-#stakePool{
-	background: #F8F8F8;
-}
 .experience-details .col-md-6{
 	margin-bottom: 40px;
 } 
