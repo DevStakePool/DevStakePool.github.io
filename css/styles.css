@@ -1165,3 +1165,34 @@ nav#filter li {
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+/* Carousel */
+.wrapper {
+  width: 75%;
+  margin: left
+}
+
+.owl-carousel {
+  list-style: none;
+  display:flex;
+  padding: 0;
+}
+
+/*.owl-item:nth-child(2n) {
+  background: #bd0000;
+}*/
+
+.owl-item {
+  padding: 0px 3px 0px 3px;
+}
+
+.owl-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    width: 100%;
+  }
+}
