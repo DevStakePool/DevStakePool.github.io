@@ -1190,6 +1190,35 @@ nav#filter li {
   width: 100%;
   height: auto;
 }
+table.brackets {
+    border-collapse: separate;
+    border-spacing: 1rem;
+}
+
+table.brackets td {
+    padding: 0 1rem 0 1rem;
+}
+
+table.brackets td.whale {
+    vertical-align: middle;
+    text-align: left;
+}
+
+table.brackets td.whale img {
+    width: 128px;
+}
+
+table.brackets td.currency{
+    text-align:right;
+}
+
+table.brackets td.available {
+    background-color: #2EC727;
+}
+
+table.brackets td.assigned {
+    background-color: #C7272a;
+}
 
 @media screen and (max-width: 640px) {
   .wrapper {
