@@ -1,5 +1,5 @@
 # EduStakePool.github.io
-EDU stake pool website - https://edustakepool.github.io
+DEV stake pool website - https://devstakepool.github.io
 
 Note
 ====
