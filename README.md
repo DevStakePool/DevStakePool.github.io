@@ -1,4 +1,4 @@
-# EduStakePool.github.io
+# DevStakePool.github.io
 DEV stake pool website - https://devstakepool.github.io
 
 Note
